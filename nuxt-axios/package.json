@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-axios",
+  "version": "1.0.0",
+  "description": "",
+  "config": {
+    "nuxt": {
+      "host": "localhost",
+      "port": "8080"
+    }
+  },
+  "scripts": {
+    "nuxt-dev": "nuxt",
+    "nuxt-build": "nuxt build",
+    "nuxt-start": "nuxt start",
+    "dev": "cross-env NODE_ENV=develoment node server.js",
+    "render": "cross-env NODE_ENV=production node server.js",
+    "api": "node api.js",
+    "start": "npm run render & npm run api"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.1",
+    "@nuxtjs/proxy": "^1.2.4",
+    "cross-env": "^5.1.4",
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "nuxt": "^1.4.0"
+  }
+}
