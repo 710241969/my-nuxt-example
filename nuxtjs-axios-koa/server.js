@@ -3,7 +3,7 @@ const { Nuxt, Builder } = require('nuxt')
 
 const APP = new KOA()
 const HOST = process.env.HOST || 'localhost'
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 8087
 // Import and Set Nuxt.js options
 const NUXT_CONFIG = require('./nuxt.config.js')
 // Instantiate nuxt.js

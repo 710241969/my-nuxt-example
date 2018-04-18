@@ -1,7 +1,7 @@
 const Koa = require('koa')
 
 const APP = new Koa()
-const HOST = process.env.HOST || '127.0.0.1'
+const HOST = process.env.HOST || 'localhost'
 const PORT = process.env.PORT || 8088
 
 
@@ -19,7 +19,7 @@ ROUTER.post('/foo', async (ctx) => {
         data: '/foo'
     }
 });
-ROUTER.post('/bar', async (ctx) => {
+ROUTER.get('/bar', async (ctx) => {
     console.log('/bar')
     ctx.body = {
         data: '/bar'

@@ -1,11 +1,9 @@
 {
-  "name": "nuxt-axios",
-  "version": "1.0.0",
-  "description": "",
+  "name": "nuxtjs-axios-koa",
   "config": {
     "nuxt": {
       "host": "localhost",
-      "port": "8080"
+      "port": "8087"
     }
   },
   "scripts": {
@@ -21,7 +19,6 @@
   "license": "ISC",
   "dependencies": {
     "@nuxtjs/axios": "^5.3.1",
-    "@nuxtjs/proxy": "^1.2.4",
     "cross-env": "^5.1.4",
     "koa": "^2.5.0",
     "koa-router": "^7.4.0",

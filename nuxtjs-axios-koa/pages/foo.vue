@@ -5,8 +5,8 @@
 <script>
 export default {
   async asyncData({ app }) {
-    const { data } = await app.$axios.post("/api/bar");
-    return { data };
+    const { data } = await app.$axios.post('/api/foo')
+    return { data }
   }
-};
+}
 </script>
